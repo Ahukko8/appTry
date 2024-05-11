@@ -4,12 +4,11 @@ import { COLORS } from '../../constants'
 
 const Carousel = () => {
     const images = [
-        require('../../assets/images/1.jpg'),
-        require('../../assets/images/2.jpg'),
-        require('../../assets/images/3.jpg'),
-        require('../../assets/images/4.jpg'),
-        require('../../assets/images/5.jpg'),
-        require('../../assets/images/6.jpg'),
+        require('../../assets/images/1.svg'),
+        require('../../assets/images/2.svg'),
+        require('../../assets/images/3.svg'),
+        require('../../assets/images/4.svg'),
+
         
       ];
 
@@ -17,12 +16,13 @@ const Carousel = () => {
     <View style={styles.container}>
     <SliderBox
       images={images}
-      sliderBoxHeight={200} 
+      // sliderBoxHeight={200} 
       dotColor={COLORS.primary} 
       inactiveDotColor={COLORS.gray} 
       autoplay 
       circleLoop 
-      
+      ImageComponentStyle = {{borderRadius: 15, width: "80%", marginTop: 15,}}
+      resizeMode="center"
     />
   </View>
   )

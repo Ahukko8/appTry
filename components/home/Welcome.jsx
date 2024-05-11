@@ -5,9 +5,10 @@ const Welcome = () => {
   return (
     <View>
       <View style={styles.container}>
-      <Text style={styles.welcomeTxt}>السلام عليكم</Text>
+      <Text style={styles.introTxt}>
+        ދިރިއުޅުން އެޕް! މިއީ އިސްލާމީ ދިތިއުޅުމަކަށް އަހުލުވެރި ކުރުވުމެގެ މަގްސަދުގައި އުފައްދާފައިވާ އެޕެކެވެ. މި އެޕްގެ ޒަރިއްޔާއިން ކުދިބޮޑު އެންމެނަށް ފަައިދާކުރާނެއެވެ.
+      </Text>
     </View>
-    
     </View>
   )
 }

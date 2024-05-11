@@ -15,7 +15,9 @@ export default function App() {
   const [fontsLoaded] = useFonts({
     'MvIzyanreethi': require('./assets/fonts/MvIzyanreethi-Bold.ttf'),
     'ReemKufi': require('./assets/fonts/ReemKufi-SemiBold.ttf'),
-    'SanguSuruhee': require('./assets/fonts/SanguSuruhee-Regular.ttf')
+    'SanguSuruhee': require('./assets/fonts/SanguSuruhee-Regular.ttf'),
+    'MvTypeBold': require('./assets/fonts/mvtypebold.ttf'),
+    'MvTyper': require('./assets/fonts/mvtyper.ttf'),
   })
 
 const onLayoutRootView = useCallback(async() => {

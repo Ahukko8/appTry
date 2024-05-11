@@ -33,12 +33,14 @@ const Home = () => {
           </View>
         </View>
       </View>
-      <ScrollView>
+     <View style={styles.homeContent}>
+     <ScrollView>
         <Carousel />
       </ScrollView>
       <ScrollView>
         <Welcome />
       </ScrollView>
+     </View>
     </SafeAreaView>
   );
 };

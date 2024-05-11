@@ -32,6 +32,11 @@ const styles = StyleSheet.create({
     //     justifyContent: "space-between",
     //     alignItems: "left"
     // }
+    homeContent: {
+        // flex: 1,
+        // flexDirection: "column",
+        marginTop: 90
+    },
 })
 
 
